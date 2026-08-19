@@ -17,15 +17,15 @@ El proyecto sigue una **arquitectura por capas (Layered Architecture)** que gara
 ### Estructura de Paquetes
 
 com.maestria_arquitectura.backendcrud/
-    controller/ # Controladores REST
-      ProductoController.java
-      GlobalExceptionHandler.java # Manejo global de errores
-    service/ # Lógica de negocio
-      ProductoService.java
-    repository/ # Acceso a datos (JPA)
-      ProductoRepository.java
-    model/ # Entidades / Modelo de datos
-    Producto.java
+├── controller/ # Controladores REST
+│ ├── ProductoController.java
+│ └── GlobalExceptionHandler.java # Manejo global de errores
+├── service/ # Lógica de negocio
+│ └── ProductoService.java
+├── repository/ # Acceso a datos (JPA)
+│ └── ProductoRepository.java
+└── model/ # Entidades / Modelo de datos
+└── Producto.java
 
 
 ## Tecnologías Utilizadas
