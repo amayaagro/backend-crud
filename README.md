@@ -15,7 +15,7 @@ La API permite gestionar productos con los siguientes atributos:
 El proyecto sigue una **arquitectura por capas (Layered Architecture)** que garantiza una clara separación de responsabilidades, facilitando el mantenimiento y la escalabilidad del código.
 
 ## Estructura de Paquetes
-```
+```plaintext
 com.maestria_arquitectura.backendcrud/
 ├── controller/          # Controladores REST
 │   ├── ProductoController.java
@@ -27,6 +27,7 @@ com.maestria_arquitectura.backendcrud/
 └── model/               # Entidades / Modelo de datos
     └── Producto.java
 ```
+
 ## Tecnologías Utilizadas
 
 | Tecnología          | Descripción                                                   |
