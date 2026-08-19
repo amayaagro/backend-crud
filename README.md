@@ -14,32 +14,6 @@ La API permite gestionar productos con los siguientes atributos:
 
 El proyecto sigue una **arquitectura por capas (Layered Architecture)** que garantiza una clara separación de responsabilidades, facilitando el mantenimiento y la escalabilidad del código.
 
-┌─────────────────────────────────────────────────────────────┐
-│ CAPA DE PRESENTACIÓN (Controller)                           │
-│ - Maneja peticiones HTTP                                    │
-│ - Define endpoints REST                                     │
-│ - Valida datos de entrada                                   │
-└────────────────────┬────────────────────────────────────────┘
-                     ▼
-┌─────────────────────────────────────────────────────────────┐
-│ CAPA DE NEGOCIO (Service)                                   │
-│ - Contiene la lógica de negocio                             │
-│ - Aplica reglas de validación                               │
-│ - Orquesta las operaciones CRUD                             │
-└────────────────────┬────────────────────────────────────────┘
-                     ▼
-┌─────────────────────────────────────────────────────────────┐
-│ CAPA DE ACCESO A DATOS (Repository)                         │
-│ - Interactúa con la base de datos                           │
-│ - Usa Spring Data JPA (ORM)                                 │
-│ - Implementa el patrón Repository                           │
-└────────────────────┬────────────────────────────────────────┘
-                     ▼
-┌─────────────────────────────────────────────────────────────┐
-│ BASE DE DATOS (H2)                                          │
-│ - Base de datos en memoria para desarrollo                  │
-└─────────────────────────────────────────────────────────────┘
-
 ### Estructura de Paquetes
 
 com.maestria_arquitectura.backendcrud/
