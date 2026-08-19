@@ -27,7 +27,6 @@ com.maestria_arquitectura.backendcrud/
 └── model/               # Entidades / Modelo de datos
     └── Producto.java
 
-
 ## Tecnologías Utilizadas
 
 | Tecnología          | Descripción                                                   |
