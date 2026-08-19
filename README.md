@@ -14,8 +14,6 @@ La API permite gestionar productos con los siguientes atributos:
 
 El proyecto sigue una **arquitectura por capas (Layered Architecture)** que garantiza una clara separación de responsabilidades, facilitando el mantenimiento y la escalabilidad del código.
 
-### Estructura de Paquetes
-
 ## Tecnologías Utilizadas
 
 | Tecnología          | Descripción                                                   |
