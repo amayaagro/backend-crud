@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto es el backend de una aplicación web que implementa servicios **API REST** para realizar operaciones **CRUD** (Crear, Leer, Actualizar, Eliminar) sobre una base de datos. Fue desarrollado como parte de la **Actividad Sumativa** de la Unidad 2 del módulo **Arquitectura de Aplicaciones Web** a nivel de maestría.
+Este proyecto es el backend de una aplicación web que implementa servicios **API REST** para realizar operaciones **CRUD** (Crear, Leer, Actualizar, Eliminar) sobre una base de datos. Fue desarrollado como parte de la **Actividad Sumativa** de la Unidad 2 del módulo **Arquitectura de Aplicaciones Web**.
 
 La API permite gestionar productos con los siguientes atributos:
 - **id**: Identificador único (autogenerado)
