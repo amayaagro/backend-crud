@@ -14,6 +14,19 @@ La API permite gestionar productos con los siguientes atributos:
 
 El proyecto sigue una **arquitectura por capas (Layered Architecture)** que garantiza una clara separación de responsabilidades, facilitando el mantenimiento y la escalabilidad del código.
 
+## Estructura de Paquetes
+```
+com.maestria_arquitectura.backendcrud/
+├── controller/          # Controladores REST
+│   ├── ProductoController.java
+│   └── GlobalExceptionHandler.java  # Manejo global de errores
+├── service/             # Lógica de negocio
+│   └── ProductoService.java
+├── repository/          # Acceso a datos (JPA)
+│   └── ProductoRepository.java
+└── model/               # Entidades / Modelo de datos
+    └── Producto.java
+```
 ## Tecnologías Utilizadas
 
 | Tecnología          | Descripción                                                   |
@@ -25,69 +38,6 @@ El proyecto sigue una **arquitectura por capas (Layered Architecture)** que gara
 | **Maven**           | Gestión de dependencias y construcción                        |
 | **Java 21**         | Lenguaje de programación (LTS)                                |
 
-
-## Endpoints de la API
-
-| Método HTTP | Endpoint              | Descripción                      | Código de Éxito        |
-|-------------|-----------------------|----------------------------------|------------------------|
-| **POST**    | `/api/productos`      | Crear un nuevo producto          | 201 Created            |
-| **GET**     | `/api/productos`      | Obtener todos los productos      | 200 OK                 |
-| **GET**     | `/api/productos/{id}` | Obtener un producto por ID       | 200 OK / 404 Not Found |
-| **PUT**     | `/api/productos/{id}` | Actualizar un producto existente | 200 OK / 404 Not Found |
-| **DELETE**  | `/api/productos/{id}` | Eliminar un producto             | 204 No Content         |
-
-## Tecnologías Utilizadas
-
-| Tecnología          | Descripción                                    |
-|---------------------|------------------------------------------------|
-| **Spring Boot 3.2** | Framework para aplicaciones Java empresariales |
-| **Spring Data JPA** | ORM para acceso a datos (Hibernate)            |
-| **H2 Database**     | Base de datos en memoria para desarrollo       |
-| **Lombok**          | Reduce código boilerplate (getters, setters)   |
-| **Maven**           | Gestión de dependencias y construcción         |
-| **Java 21**         | Lenguaje de programación (LTS)                 |
-
-## Endpoints de la API
-
-| Método HTTP | Endpoint              | Descripción                      | Código de Éxito        |
-|-------------|-----------------------|----------------------------------|------------------------|
-| **POST**    | `/api/productos`      | Crear un nuevo producto          | 201 Created            |
-| **GET**     | `/api/productos`      | Obtener todos los productos      | 200 OK                 |
-| **GET**     | `/api/productos/{id}` | Obtener un producto por ID       | 200 OK / 404 Not Found |
-| **PUT**     | `/api/productos/{id}` | Actualizar un producto existente | 200 OK / 404 Not Found |
-| **DELETE**  | `/api/productos/{id}` | Eliminar un producto             | 204 No Content         |
-
-## Tecnologías Utilizadas
-
-| Tecnología          | Descripción                                    |
-|---------------------|------------------------------------------------|
-| **Spring Boot 3.2** | Framework para aplicaciones Java empresariales |
-| **Spring Data JPA** | ORM para acceso a datos (Hibernate)            |
-| **H2 Database**     | Base de datos en memoria para desarrollo       |
-| **Lombok**          | Reduce código boilerplate (getters, setters)   |
-| **Maven**           | Gestión de dependencias y construcción         |
-| **Java 21**         | Lenguaje de programación (LTS)                 |
-
-## Endpoints de la API
-
-| Método HTTP | Endpoint              | Descripción                      | Código de Éxito        |
-|-------------|-----------------------|----------------------------------|------------------------|
-| **POST**    | `/api/productos`      | Crear un nuevo producto          | 201 Created            |
-| **GET**     | `/api/productos`      | Obtener todos los productos      | 200 OK                 |
-| **GET**     | `/api/productos/{id}` | Obtener un producto por ID       | 200 OK / 404 Not Found |
-| **PUT**     | `/api/productos/{id}` | Actualizar un producto existente | 200 OK / 404 Not Found |
-| **DELETE**  | `/api/productos/{id}` | Eliminar un producto             | 204 No Content         |
-
-## Tecnologías Utilizadas
-
-| Tecnología          | Descripción                                    |
-|---------------------|------------------------------------------------|
-| **Spring Boot 3.2** | Framework para aplicaciones Java empresariales |
-| **Spring Data JPA** | ORM para acceso a datos (Hibernate)            |
-| **H2 Database**     | Base de datos en memoria para desarrollo       |
-| **Lombok**          | Reduce código boilerplate (getters, setters)   |
-| **Maven**           | Gestión de dependencias y construcción         |
-| **Java 21**         | Lenguaje de programación (LTS)                 |
 
 ## Endpoints de la API
 
