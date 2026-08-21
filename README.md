@@ -70,33 +70,33 @@ Respuestas HTTP con códigos de estado apropiados
 
 ```plaintext
 backend-crud/
-├── .git/                    ✅
-├── .gitattributes           ✅
-├── .gitignore               ✅
-├── .mvn/                    ✅
-├── LICENSE                  ✅ (MIT)
-├── README.md               ✅ (Actualizado)
-├── mvnw                    ✅
-├── mvnw.cmd                ✅
-├── pom.xml                 ✅ (Dependencias completas)
-└── src/                    ✅
+├── .git/                    
+├── .gitattributes           
+├── .gitignore               
+├── .mvn/                    
+├── LICENSE                  (MIT)
+├── README.md                (Actualizado)
+├── mvnw                     
+├── mvnw.cmd                 
+├── pom.xml                  (Dependencias completas)
+└── src/                     
     └── main/
         ├── java/
         │   └── com.maestria_arquitectura.backendcrud/
-        │       ├── BackendCrudApplication.java    ✅
-        │       ├── controller/                   ✅
-        │       │   ├── ProductoController.java   ✅
-        │       │   └── GlobalExceptionHandler.java ✅
-        │       ├── model/                       ✅
-        │       │   └── Producto.java            ✅
-        │       ├── repository/                  ✅
-        │       │   └── ProductoRepository.java  ✅
-        │       └── service/                     ✅
-        │           └── ProductoService.java     ✅
+        │       ├── BackendCrudApplication.java     
+        │       ├── controller/                     
+        │       │   ├── ProductoController.java     
+        │       │   └── GlobalExceptionHandler.java 
+        │       ├── model/                       
+        │       │   └── Producto.java            
+        │       ├── repository/                  
+        │       │   └── ProductoRepository.java  
+        │       └── service/                     
+        │           └── ProductoService.java     
         └── resources/
-            ├── application.properties           ✅
-            ├── static/                          ✅
-            └── templates/                       ✅
+            ├── application.properties           
+            ├── static/                          
+            └── templates/                       
 ```
 
 **Nota:** Este proyecto fue desarrollado como parte de una actividad académica y no está destinado para uso en producción.
